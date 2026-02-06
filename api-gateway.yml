@@ -12,3 +12,7 @@ spring:
           uri: lb://hotel-service
           predicates:
             - Path=/api/hotel/**
+        - id: destination-service
+          uri: lb://destination-service
+          predicates:
+            - Path=/api/v1/destination/**
