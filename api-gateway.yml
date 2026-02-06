@@ -23,6 +23,4 @@ spring:
         - id: trip-service
           uri: lb://trip-service
           predicates:
-            - Path=/api/trips/**
-            - Path=/api/tripCategory/**
-            - Path=/api/user-trips/**
+            - Path=/api/trips/**,/api/tripCategory/**,/api/user-trips/**
