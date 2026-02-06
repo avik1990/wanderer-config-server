@@ -19,4 +19,4 @@ spring:
         - id: file-service
           uri: lb://file-service
           predicates:
-            - Path=/api/files/getMediaByEntity**
+            - Path=/api/files/getMediaByEntity/**
