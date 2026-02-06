@@ -20,3 +20,9 @@ spring:
           uri: lb://file-service
           predicates:
             - Path=/api/files/getMediaByEntity/**
+        - id: trip-service
+          uri: lb://trip-service
+          predicates:
+            - Path=/api/trips/**
+            - Path=/api/tripCategory/**
+            - Path=/api/user-trips/**
