@@ -16,3 +16,7 @@ spring:
           uri: lb://destination-service
           predicates:
             - Path=/api/v1/destinations/**
+        - id: file-service
+          uri: lb://file-service
+          predicates:
+            - Path=/api/files/getMediaByEntity**
