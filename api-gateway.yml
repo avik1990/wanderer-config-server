@@ -15,4 +15,4 @@ spring:
         - id: destination-service
           uri: lb://destination-service
           predicates:
-            - Path=/api/v1/destination/**
+            - Path=/api/v1/destinations/**
