@@ -7,7 +7,7 @@ spring:
     name: destination-service
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/destination_service
+    url: jdbc:postgresql://sr-postgres:5432/destination_service
     username: postgres
     password: admin
     driver-class-name: org.postgresql.Driver
