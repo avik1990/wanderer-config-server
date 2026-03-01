@@ -11,7 +11,7 @@ spring:
   application:
     name: USER-SERVICE
   datasource:
-    url: jdbc:postgresql://localhost:5432/trip_service
+    url: jdbc:postgresql://sr-postgres:5432/trip_service
     username: postgres
     password: admin
     driver-class-name: org.postgresql.Driver
