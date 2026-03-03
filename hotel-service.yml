@@ -16,7 +16,7 @@ spring:
       org.springframework.security: DEBUG
 
   datasource:
-    url: jdbc:postgresql://sr-postgres:5432:5432/hotel_service
+    url: jdbc:postgresql://sr-postgres:5432/hotel_service
     username: postgres
     password: admin
     driver-class-name: org.postgresql.Driver
