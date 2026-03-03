@@ -5,6 +5,8 @@ server:
 spring:
   application:
     name: file-service
+  config:
+    import: optional:configserver:http://config-server:8088 
 
   datasource:
     url: jdbc:postgresql://sr-postgres:5432/file_service
@@ -30,5 +32,9 @@ spring:
     bootstrap-servers: localhost:9092
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerialize
+eureka:
+  client:
+    service-url:
+      defaultZone: http://service-registry:8761/eureka
 
