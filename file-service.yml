@@ -9,7 +9,7 @@ spring:
     import: optional:configserver:http://config-server:8088 
 
   datasource:
-    url: jdbc:postgresql://sr-postgres:5432/file_service
+    url: jdbc:postgresql://postgres:5432/file_service
     username: postgres
     password: admin
     driver-class-name: org.postgresql.Driver
