@@ -7,7 +7,7 @@ spring:
     name: user-service
 
   datasource:
-    url: jdbc:postgresql://sr-postgres:5432/trip_service
+    url: jdbc:postgresql://postgres:5432/trip_service
     username: postgres
     password: admin
     driver-class-name: org.postgresql.Driver
