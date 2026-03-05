@@ -13,7 +13,7 @@ spring:
           secret-key: mySuperLongSecureJWTSecretKeyThatIsAtLeast32Chars
 
   datasource:
-    url: jdbc:postgresql://sr-postgres:5432/destination_service
+    url: jdbc:postgresql://postgres:5432/destination_service
     username: postgres
     password: admin
     driver-class-name: org.postgresql.Driver
