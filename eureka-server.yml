@@ -5,10 +5,3 @@ server:
 spring:
   application:
     name: service-registry
-
-eureka:
-  client:
-    fetch-registry: false
-    register-with-eureka: false
-    service-url:
-     defaultZone: http://service-registry:8761/eureka/
